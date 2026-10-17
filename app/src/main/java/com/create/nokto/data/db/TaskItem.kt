@@ -10,5 +10,5 @@ data class TaskItem(
 
     val title: String,
     val description: String,
-    val idDone: Boolean = false,
+    val isDone: Boolean = false,
 )
